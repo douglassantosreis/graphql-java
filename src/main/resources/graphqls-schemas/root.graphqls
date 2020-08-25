@@ -1,0 +1,8 @@
+type Query {
+  customers: [Customer]
+  customer(id: String): Customer
+}
+
+type Mutation {
+  saveCustomer(customer: CustomerDTO): Customer
+}

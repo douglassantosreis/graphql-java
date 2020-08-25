@@ -1,0 +1,11 @@
+type Customer {
+    id: ID
+    name: String
+    age: Int
+}
+
+input CustomerDTO {
+    id: ID
+    name: String
+    age: Int
+}
